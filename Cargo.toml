@@ -1,0 +1,14 @@
+[package]
+authors = ["Vinicius Sales <vinicius.2010.s@gmail.com>"]
+edition = "2018"
+name = "cody"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+string_cache = "0.8"
+swc_atoms = "^0.2.6"
+swc_common = "^0.10.21"
+swc_ecma_ast = "^0.46.0"
+swc_ecma_parser = "^0.60.2"
